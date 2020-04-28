@@ -8,20 +8,21 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity implements Runnable {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Handler handler = new Handler(); //contador de tempo
-        handler.postDelayed(this, 150);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
 
-    }
-    @Override
-    public void run() {
-        Intent intent = new Intent(this, Main2Activity.class);
+                Intent i=new Intent(MainActivity.this, Main2Activity.class);
+                startActivity(i);
+            }
+        }, 5000);
 
     }
 
