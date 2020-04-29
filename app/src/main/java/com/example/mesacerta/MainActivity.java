@@ -16,16 +16,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         new Handler().postDelayed(new Runnable() {
+
             @Override
             public void run() {
-
-<<<<<<< HEAD
-                Intent i = new Intent(MainActivity.this, Main2Activity.class);
-                startActivity(i);
-            }
-        }, 5000);
-    }
-=======
                 Intent i=new Intent(MainActivity.this, Main2Activity.class);
                 startActivity(i);
             }
@@ -33,5 +26,4 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
->>>>>>> master
 }
