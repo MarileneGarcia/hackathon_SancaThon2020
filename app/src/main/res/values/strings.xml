@@ -109,4 +109,5 @@
     <string name="favoritos">Favoritos</string>
     <string name="ocupacao">Ocupação</string>
     <string name="busca">Busca</string>
+    <string name="pesquisar_estabelecimento">"      Pesquisar estabelecimento"</string>
 </resources>
