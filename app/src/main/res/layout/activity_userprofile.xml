@@ -8,21 +8,21 @@
     tools:context=".Userprofile">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_cadastro"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@drawable/user"
         android:text="@string/user"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/button_info"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintStart_toEndOf="@+id/button_estrela"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.975"
         tools:text="   " />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/button_casa"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="16dp"
@@ -30,7 +30,7 @@
         android:background="@drawable/home"
         android:text="@string/home"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/button_estrela"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -38,30 +38,30 @@
         tools:text="   " />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button_estrela"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@drawable/favorite"
         android:text="@string/favorite"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/button_cadastro"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintStart_toEndOf="@+id/button_casa"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.975" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button_info"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:background="@drawable/help"
+        android:background="@drawable/lupa"
         android:text="@string/help"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/button_cadastro"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.978" />
 
@@ -216,7 +216,7 @@
         android:id="@+id/button12"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        android:background="@drawable/edit"
+        android:background="@drawable/lupa"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

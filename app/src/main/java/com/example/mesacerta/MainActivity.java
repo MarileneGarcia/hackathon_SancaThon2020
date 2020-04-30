@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Delay();
+    }
+
+    public void Delay(){
         new Handler().postDelayed(new Runnable() {
 
             @Override
@@ -23,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         }, 5000);
-
     }
 
 }

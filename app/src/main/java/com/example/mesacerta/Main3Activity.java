@@ -8,22 +8,24 @@ import android.view.View;
 import android.widget.Button;
 
 public class Main3Activity extends AppCompatActivity {
-    private Button button;
+    Button button_prox2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_three);
-        button = (Button) findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_main3);
+
+        button_prox2 = (Button) findViewById(R.id.button_prox2);
+        button_prox2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivity3();
+                openActivity4();
             }
         });
+
     }
 
-    public void openActivity3(){
-        Intent i = new Intent(this, Main4Activity.class);
+    public void openActivity4(){
+        Intent i = new Intent(this, Activity4.class);
         startActivity(i);
     }
 }

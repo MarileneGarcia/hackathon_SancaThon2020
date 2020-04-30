@@ -5,70 +5,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFC107"
-    tools:context=".Main4Activity">
+    tools:context=".Activity4">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="94dp"
-        android:layout_height="101dp"
-        android:contentDescription="@string/prox"
+        android:id="@+id/imageView11"
+        android:layout_width="119dp"
+        android:layout_height="71dp"
+        android:contentDescription="@string/location"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025"
+        app:layout_constraintVertical_bias="0.074"
         app:srcCompat="@drawable/location" />
 
     <TextView
-        android:id="@+id/prox"
-        android:layout_width="197dp"
-        android:layout_height="58dp"
-        android:alpha="@dimen/fab_margin"
+        android:id="@+id/textView6"
+        android:layout_width="248dp"
+        android:layout_height="99dp"
+        android:contentDescription="@string/location"
         android:fontFamily="sans-serif-black"
-        android:lineSpacingExtra="8sp"
-        android:text="@string/proximos"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/proxx"
         android:textColor="#FF0000"
         android:textSize="42sp"
-        android:typeface="normal"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.748"
+        app:layout_constraintHorizontal_bias="0.901"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045"
-        tools:text="Próximos" />
+        app:layout_constraintVertical_bias="0.077" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="399dp"
+        android:id="@+id/button_prox"
+        android:layout_width="370dp"
         android:layout_height="99dp"
-        android:background="?android:attr/colorPressedHighlight"
+        android:background="#FFEB3B"
         android:drawableStart="@drawable/beer"
-        android:drawableLeft="@drawable/beer"
-        android:drawingCacheQuality="auto"
-        android:duplicateParentState="false"
+        android:drawableEnd="@drawable/seta"
         android:text="@string/botao_beer"
-        android:textColor="#000000"
-        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.344" />
+        app:layout_constraintVertical_bias="0.327" />
 
     <Button
-        android:id="@+id/button8"
-        android:layout_width="399dp"
+        android:id="@+id/button5"
+        android:layout_width="370dp"
         android:layout_height="99dp"
-        android:background="?android:attr/colorPressedHighlight"
+        android:background="#FFEB3B"
         android:drawableStart="@drawable/restaurant"
+        android:drawableEnd="@drawable/seta"
         android:text="@string/botao_restaurant"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.517" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
