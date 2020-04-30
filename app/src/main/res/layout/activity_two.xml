@@ -7,64 +7,68 @@
     android:background="#FFC107">
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_marginEnd="72dp"
-        android:layout_marginRight="72dp"
-        android:background="@drawable/help"
-        android:text="@string/help"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.988" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:background="@drawable/home"
-        android:text="@string/home"
+        android:id="@+id/button2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/user"
+        android:text="@string/user"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button5"
         app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+        tools:text="   " />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/home"
+        android:text="@string/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.989"
+        app:layout_constraintVertical_bias="0.978"
         tools:text="   " />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:background="@drawable/food"
-        android:text="@string/food"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/favorite"
+        android:text="@string/favorite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button6"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.988"
-        tools:text="   " />
+        app:layout_constraintVertical_bias="0.975" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:id="@+id/button5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:background="@drawable/user"
-        android:text="@string/user"
+        android:background="@drawable/help"
+        android:text="@string/help"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.988"
-        tools:text="   " />
+        app:layout_constraintVertical_bias="0.978" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="395dp"
-        android:layout_height="62dp"
+        android:layout_width="394dp"
+        android:layout_height="69dp"
+        android:autofillHints="@string/pesquisar_estabelecimento"
         android:background="@drawable/searchbox"
         android:ems="10"
         android:hint="@string/pesquisar_estabelecimento"
@@ -78,14 +82,15 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="625dp"
-        android:layout_height="575dp"
+        android:layout_width="567dp"
+        android:layout_height="515dp"
+        android:contentDescription="@string/logoextenso"
         android:src="@drawable/logoextenso"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245" />
+        app:layout_constraintVertical_bias="0.38" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

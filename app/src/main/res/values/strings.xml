@@ -110,4 +110,6 @@
     <string name="ocupacao">Ocupação</string>
     <string name="busca">Busca</string>
     <string name="pesquisar_estabelecimento">"      Pesquisar estabelecimento"</string>
+    <string name="logoextenso"></string>
+    <string name="favorite"></string>
 </resources>
