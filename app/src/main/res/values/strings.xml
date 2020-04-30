@@ -110,6 +110,15 @@
     <string name="ocupacao">Ocupação</string>
     <string name="busca">Busca</string>
     <string name="pesquisar_estabelecimento">"      Pesquisar estabelecimento"</string>
-    <string name="logoextenso"></string>
-    <string name="favorite"></string>
+    <string name="logoextenso">"    "</string>
+    <string name="favorite" />
+    <string name="name"></string>
+    <string name="phone"></string>
+    <string name="password"></string>
+    <string name="profile"></string>
+    <string name="email"></string>
+    <string name="namebox">Antônio Drauzio Varella</string>
+    <string name="emailbox">dvarella@fsp.usp.br</string>
+    <string name="phonebox">(11) 3061-8100</string>
+    <string name="passwordbox">**********</string>
 </resources>
