@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/button_cadastro"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:background="@drawable/user"
         android:text="@string/button_cadastro"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,8 +22,8 @@
 
     <Button
         android:id="@+id/button_casa"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:background="@drawable/home"
@@ -39,8 +39,8 @@
 
     <Button
         android:id="@+id/button_estrela"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:background="@drawable/favorite"
         android:text="@string/favorite"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,8 +52,8 @@
 
     <Button
         android:id="@+id/button_info"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:background="@drawable/lupa"
@@ -67,8 +67,8 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="394dp"
-        android:layout_height="69dp"
+        android:layout_width="349dp"
+        android:layout_height="49dp"
         android:autofillHints="@string/pesquisar_estabelecimento"
         android:background="@drawable/searchbox"
         android:ems="10"
@@ -83,15 +83,15 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="567dp"
-        android:layout_height="515dp"
+        android:layout_width="469dp"
+        android:layout_height="398dp"
         android:contentDescription="@string/logoextenso"
         android:src="@drawable/logoextenso"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.38" />
+        app:layout_constraintVertical_bias="0.409" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
