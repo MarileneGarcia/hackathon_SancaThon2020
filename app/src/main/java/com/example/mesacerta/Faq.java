@@ -8,14 +8,16 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class faq extends AppCompatActivity {
+import static com.example.mesacerta.R.id.faq;
+
+public class Faq extends AppCompatActivity {
 
     ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_faq);
-        listView=(ListView)findViewById(R.id.faq);
+        listView= (ListView)findViewById(R.id.frequentQ);
         ArrayList<String> arrayList = new ArrayList<>();
 
         arrayList.add("Como faço login?");
@@ -31,7 +33,7 @@ public class faq extends AppCompatActivity {
         arrayList.add("É possível dar uma gorjeta virtual ao garçom?");
         arrayList.add("Quanto são os juros do serviço?");
 
-        ArrayAdapter<String> arrayAdapter= new ArrayAdapter<>(this,android.R.layout.simple_list_item_1, arrayList);
+        ArrayAdapter arrayAdapter= new ArrayAdapter(this,android.R.layout.simple_list_item_1, arrayList);
         listView.setAdapter(arrayAdapter);
 
 

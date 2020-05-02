@@ -38,4 +38,6 @@
     <string name="primeiro_fav">Taverna</string>
     <string name="location">location</string>
     <string name="proxx">Próximos</string>
+    <string name="search">Digite sua pergunta</string>
+    <string name="chat"></string>
 </resources>
