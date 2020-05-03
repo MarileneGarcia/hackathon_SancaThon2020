@@ -18,9 +18,9 @@ import android.widget.Toast;
 
 public class Fav extends AppCompatActivity {
     ListView listView;
-    String mTitle[] = {"Facebook", "Whatsapp", "Twitter", "Instagram", "Youtube"};
-    String mDescription[] = {"Facebook Description", "Whatsapp Description", "Twitter Description", "Instagram Description", "Youtube Description"};
-    int images[] = {R.drawable.facebook, R.drawable.whatsapp, R.drawable.twitter, R.drawable.instagram, R.drawable.youtube};
+    String mTitle[] = {"Central Perk", "The Cheesecake Factory", "Krusty Burguer", "MacLaren's pub", "The Three Broomsticks","Anteiku" };
+    String mDescription[] = {"Cafeteria perfeita para reunir os amigos", "Um restaurante bom para conversar sobre ciência", "Venha comer hamburgers", "Venha beber com os amigos", "Bar para magos", "Cafeteria para humanos"};
+    int images[] = {R.drawable.central_perk, R.drawable.tcf, R.drawable.krusty_burguer, R.drawable.mcl, R.drawable.thethreebroomsticks, R.drawable.anteiku};
     // so our images and other things are set in array
 
     // now paste some images in drawable
