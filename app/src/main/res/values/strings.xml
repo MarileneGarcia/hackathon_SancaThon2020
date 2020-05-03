@@ -40,4 +40,6 @@
     <string name="proxx">Próximos</string>
     <string name="search">Digite sua pergunta</string>
     <string name="chat"></string>
+    <string name="chatbox">"   Digite o que precisa..."</string>
+    <string name="message"><![CDATA["    <stringOlá meu rei, o que posso lhe ser util?Estamos com todos os atendentes ocupados no momento, contudoretornaremos seu contato o mais breve possível.Ao acessar esse chat você está de acordo com as política de privacidad do aplicativo. Confira mais informaçõe clicando aqui."]]></string>
 </resources>

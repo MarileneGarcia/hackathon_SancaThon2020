@@ -279,7 +279,7 @@
         app:srcCompat="@drawable/password" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/button_faq"
         android:layout_width="52dp"
         android:layout_height="46dp"
         android:background="@drawable/help"

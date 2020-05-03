@@ -5,11 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
 import java.util.ArrayList;
-
-import static com.example.mesacerta.R.id.faq;
-
 public class Faq extends AppCompatActivity {
 
     ListView listView;

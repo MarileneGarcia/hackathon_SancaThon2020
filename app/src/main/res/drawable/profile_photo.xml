@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Bottom 2dp Shadow -->
     <item>
-        <shape  android:shape="oval">
-            <size android:height="100dp" android:width="100dp"/>
-            <solid android:color="#d8d8d8"/>
-            <stroke android:width="1dp" android:color="#FFFFFF"/>
-        </shape>
+        <shape android:shape="oval" />
     </item>
-</selector>
+    <item android:drawable="@drawable/drauzinho" />
+</layer-list>
