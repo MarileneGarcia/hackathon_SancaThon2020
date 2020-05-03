@@ -28,7 +28,7 @@
         tools:text="@string/busca" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_loc"
         android:layout_width="300dp"
         android:layout_height="80dp"
         android:background="#F2D95C"
@@ -58,7 +58,7 @@
         app:layout_constraintVertical_bias="0.365" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button_ocup"
         android:layout_width="300dp"
         android:layout_height="80dp"
         android:background="#F2D95C"
@@ -73,7 +73,7 @@
         app:layout_constraintVertical_bias="0.902" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button_f"
         android:layout_width="300dp"
         android:layout_height="80dp"
         android:background="#F2D95C"

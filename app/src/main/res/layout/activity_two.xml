@@ -28,7 +28,6 @@
         android:layout_marginLeft="16dp"
         android:background="@drawable/home"
         android:shadowColor="#FFFFFF"
-        android:text="@string/home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_estrela"
         app:layout_constraintHorizontal_bias="0.5"

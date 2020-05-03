@@ -12,6 +12,7 @@ public class Userprofile extends AppCompatActivity {
     Button button_cadastro;
     Button button_lupa;
     Button button_info;
+    Button button_estrela;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,13 +23,14 @@ public class Userprofile extends AppCompatActivity {
         button_casa = (Button) findViewById(R.id.button_casa);
         button_lupa = (Button) findViewById(R.id.button_info);
         button_info = (Button) findViewById(R.id.button_faq);
+        button_estrela= (Button) findViewById(R.id.button_estrela);
+
         button_casa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivity2();
             }
         });
-
         button_cadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,6 +47,12 @@ public class Userprofile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openFaq();
+            }
+        });
+        button_estrela.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity5();
             }
         });
     }
@@ -65,6 +73,10 @@ public class Userprofile extends AppCompatActivity {
     }
     public void openFaq(){
         Intent i = new Intent(this, Faq.class);
+        startActivity(i);
+    }
+    public void openActivity5(){
+        Intent i = new Intent(this, Fav.class);
         startActivity(i);
     }
 }
