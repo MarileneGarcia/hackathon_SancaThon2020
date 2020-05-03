@@ -11,6 +11,7 @@ public class Main2Activity extends AppCompatActivity {
     Button button_casa;
     Button button_cadastro;
     Button button_lupa;
+    Button button_estrela;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +41,14 @@ public class Main2Activity extends AppCompatActivity {
                 openActivity2();
             }
         });
+
+        button_estrela = (Button) findViewById(R.id.button_estrela);
+        button_estrela.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity5();
+            }
+        });
     }
     public void openActivityUser(){
         Intent i = new Intent(this, Userprofile.class);
@@ -51,6 +60,10 @@ public class Main2Activity extends AppCompatActivity {
     }
     public void openActivity3(){
         Intent i = new Intent(this, Main3Activity.class);
+        startActivity(i);
+    }
+    public void openActivity5(){
+        Intent i = new Intent(this, Favoritos.class);
         startActivity(i);
     }
 }

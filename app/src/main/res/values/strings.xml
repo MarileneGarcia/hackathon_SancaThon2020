@@ -42,4 +42,31 @@
     <string name="chat"></string>
     <string name="chatbox">"   Digite o que precisa..."</string>
     <string name="message"><![CDATA["    <stringOlá meu rei, o que posso lhe ser util?Estamos com todos os atendentes ocupados no momento, contudoretornaremos seu contato o mais breve possível.Ao acessar esse chat você está de acordo com as política de privacidad do aplicativo. Confira mais informaçõe clicando aqui."]]></string>
+    <string name="im_res" />
+    <string name="text_loc">Localidade</string>
+    <string name="estado">Estado</string>
+    <string name="cidade">Cidade</string>
+    <string name="bairro">Bairro</string>
+    <string name="buscar_loc">Buscar</string>
+    <string name="title_activity_favorito">Favorito</string>
+
+    <string name="rest_1" />
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="bares" />
+    <string name="Text">Favoritos</string>
 </resources>

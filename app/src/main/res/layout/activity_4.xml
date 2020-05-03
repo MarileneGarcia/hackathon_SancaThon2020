@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFC107"
+    android:background="#F2C438"
     tools:context=".Activity4">
 
     <ImageView
@@ -60,6 +60,7 @@
         android:drawableStart="@drawable/beer"
         android:drawableEnd="@drawable/seta"
         android:text="@string/botao_beer"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.387"
