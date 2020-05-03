@@ -41,7 +41,7 @@
     <string name="search">Digite sua pergunta</string>
     <string name="chat"></string>
     <string name="chatbox">"   Digite o que precisa..."</string>
-    <string name="message"><![CDATA["    <stringOlá meu rei, o que posso lhe ser util?Estamos com todos os atendentes ocupados no momento, contudoretornaremos seu contato o mais breve possível.Ao acessar esse chat você está de acordo com as política de privacidad do aplicativo. Confira mais informaçõe clicando aqui."]]></string>
+    <string name="message"><![CDATA["    Olá meu rei, o que posso lhe ser util?Estamos com todos os atendentes ocupados no momento, contudoretornaremos seu contato o mais breve possível.Ao acessar esse chat você está de acordo com as política de privacidad do aplicativo. Confira mais informaçõe clicando aqui."]]></string>
     <string name="im_res" />
     <string name="text_loc">Localidade</string>
     <string name="estado">Estado</string>
@@ -73,4 +73,13 @@
     <string name="sub_title">sub_title</string>
     <string name="an">an</string>
     <string name="ocup">Ocupação</string>
+    <string name="ncartao">Número do Cartão</string>
+    <string name="validade">Validade:</string>
+    <string name="nseg">Nro de Segurança:</string>
+    <string name="titular">Nome do Titular do Cartão:</string>
+    <string name="cpf">CPF do Titular do Cartão</string>
+    <string name="a">"    "</string>
+    <string name="empty">"    "</string>
+    <string name="Pagamento">Pagamento</string>
+    <string name="pagar">Pagar</string>
 </resources>
