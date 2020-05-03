@@ -5,6 +5,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -44,19 +45,28 @@ public class Ocup extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position ==  0) {
-                    Toast.makeText(Ocup.this, "Facebook Description", Toast.LENGTH_SHORT).show();
+                    Intent i = new Intent(Ocup.this, Pagamentos.class);
+                    startActivity(i);
                 }
-                if (position ==  0) {
-                    Toast.makeText(Ocup.this, "Whatsapp Description", Toast.LENGTH_SHORT).show();
+                else if (position ==  1) {
+                    Intent i = new Intent(Ocup.this, Pagamentos.class);
+                    startActivity(i);
                 }
-                if (position ==  0) {
-                    Toast.makeText(Ocup.this, "Twitter Description", Toast.LENGTH_SHORT).show();
+                else if (position ==  2) {
+                    Intent i = new Intent(Ocup.this, Pagamentos.class);
+                    startActivity(i);
                 }
-                if (position ==  0) {
-                    Toast.makeText(Ocup.this, "Instagram Description", Toast.LENGTH_SHORT).show();
+                else if (position ==  3) {
+                    Intent i = new Intent(Ocup.this, Pagamentos.class);
+                    startActivity(i);
                 }
-                if (position ==  0) {
-                    Toast.makeText(Ocup.this, "Youtube Description", Toast.LENGTH_SHORT).show();
+                else if (position ==  4) {
+                    Intent i = new Intent(Ocup.this, Pagamentos.class);
+                    startActivity(i);
+                }
+                else if (position ==  5) {
+                    Intent i = new Intent(Ocup.this, Pagamentos.class);
+                    startActivity(i);
                 }
             }
         });
