@@ -69,4 +69,7 @@
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="bares" />
     <string name="Text">Favoritos</string>
+    <string name="title">title</string>
+    <string name="sub_title">sub_title</string>
+    <string name="an">an</string>
 </resources>

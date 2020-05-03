@@ -63,7 +63,7 @@ public class Main2Activity extends AppCompatActivity {
         startActivity(i);
     }
     public void openActivity5(){
-        Intent i = new Intent(this, Favoritos.class);
+        Intent i = new Intent(this, Fav.class);
         startActivity(i);
     }
 }

@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F2C438"
-    tools:context=".Favoritos">
+    android:background="@color/background"
+    tools:context=".Fav">
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="255dp"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="42dp"
         android:layout_toEndOf="@+id/imageView12"
         android:layout_toRightOf="@+id/imageView12"
@@ -24,14 +25,12 @@
         app:layout_constraintHorizontal_bias="1.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.5"
-        android:layout_marginLeft="16dp" />
+        app:layout_constraintVertical_bias="1.5" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="104dp"
         android:layout_height="91dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:contentDescription="@string/favorite"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,12 +41,15 @@
         app:layout_constraintVertical_bias="0.025"
         app:srcCompat="@drawable/star" />
 
-
-    <ScrollView
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="1000dp"
-        android:layout_marginTop="150dp"
-        />
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="30dp"
+        android:background="#F2D95C">
+
+    </ListView>
 
 
 </RelativeLayout>
