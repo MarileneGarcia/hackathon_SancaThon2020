@@ -39,54 +39,9 @@
         app:layout_constraintVertical_bias="0.061" />
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="370dp"
-        android:layout_height="99dp"
-        android:background="#F2D95C"
-        android:drawableEnd="@drawable/seta"
-        android:text="@string/estado"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.609"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.329" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="370dp"
-        android:layout_height="99dp"
-        android:background="#F2D95C"
-        android:drawableEnd="@drawable/seta"
-        android:text="@string/cidade"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.609"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7"
-        app:layout_constraintVertical_bias="0.067" />
-
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="370dp"
-        android:layout_height="99dp"
-        android:background="#F2D95C"
-        android:drawableEnd="@drawable/seta"
-        android:text="@string/bairro"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.609"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button8"
-        app:layout_constraintVertical_bias="0.067" />
-
-    <Button
-        android:id="@+id/button16"
-        android:layout_width="256dp"
-        android:layout_height="48dp"
+        android:id="@+id/button_buscar"
+        android:layout_width="163dp"
+        android:layout_height="57dp"
         android:background="#F2D95C"
         android:text="@string/buscar_loc"
         android:textSize="18sp"
@@ -96,4 +51,98 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.947" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="168dp"
+        android:layout_height="37dp"
+        android:text="@string/estado"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <TextView
+        android:id="@+id/textView_b"
+        android:layout_width="168dp"
+        android:layout_height="37dp"
+        android:text="@string/bairro"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+
+    <EditText
+        android:id="@+id/editTextE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/estado_name"
+        android:background="#F2D95C"
+        android:drawableEnd="@drawable/edit"
+        android:ems="10"
+        android:hint="@string/hint_e"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/bairro_name"
+        android:background="#F2D95C"
+        android:drawableEnd="@drawable/edit"
+        android:ems="10"
+        android:hint="@string/hint_c"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/cidade_name"
+        android:background="#F2D95C"
+        android:drawableEnd="@drawable/edit"
+        android:ems="10"
+        android:hint="@string/hint_b"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_b"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="168dp"
+        android:layout_height="37dp"
+        android:text="@string/cidade"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
