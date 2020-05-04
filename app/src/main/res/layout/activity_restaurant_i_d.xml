@@ -21,7 +21,7 @@
         android:src="@drawable/b" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button_card"
         android:layout_width="130dp"
         android:layout_height="71dp"
         android:layout_alignParentEnd="true"
@@ -33,7 +33,7 @@
         android:text="@string/Cardapio" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button_comanda"
         android:layout_width="223dp"
         android:layout_height="71dp"
         android:layout_alignParentEnd="true"
@@ -42,8 +42,7 @@
         android:layout_marginEnd="15dp"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="13dp"
-        android:text="@string/rsv"
-        tools:text="Reservar uma mesa e abrir uma comanda" />
+        android:text="@string/ssss" />
 
     <TextView
         android:id="@+id/textView16"
@@ -68,26 +67,25 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="97dp"
-        android:layout_marginRight="97dp"
-        android:layout_marginBottom="99dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="91dp"
         android:background="@drawable/searchbox"
-        android:gravity="center"
-        android:text="@string/av"
+        android:gravity="center|start"
+        android:text="@string/ggg"
         android:textAlignment="textStart"
-        android:textSize="20sp"
-        tools:text="    Avaliação" />
+        android:textSize="20sp" />
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="318dp"
-        android:layout_height="63dp"
+        android:layout_width="215dp"
+        android:layout_height="60dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        android:layout_marginBottom="99dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginBottom="96dp"
         android:contentDescription="@string/empty"
         app:srcCompat="@drawable/x" />
 </RelativeLayout>

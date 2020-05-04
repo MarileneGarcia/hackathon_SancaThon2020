@@ -44,27 +44,27 @@ public class Fav extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position ==  0) {
-                    Intent i = new Intent(Fav.this, Pagamentos.class);
+                    Intent i = new Intent(Fav.this, RestaurantID.class);
                     startActivity(i);
                 }
                 else if (position ==  1) {
-                    Intent i = new Intent(Fav.this, Pagamentos.class);
+                    Intent i = new Intent(Fav.this, RestaurantID.class);
                     startActivity(i);
                 }
                 else if (position ==  2) {
-                    Intent i = new Intent(Fav.this, Pagamentos.class);
+                    Intent i = new Intent(Fav.this, RestaurantID.class);
                     startActivity(i);
                 }
                 else if (position ==  3) {
-                    Intent i = new Intent(Fav.this, Pagamentos.class);
+                    Intent i = new Intent(Fav.this, RestaurantID.class);
                     startActivity(i);
                 }
                 else if (position ==  4) {
-                    Intent i = new Intent(Fav.this, Pagamentos.class);
+                    Intent i = new Intent(Fav.this, RestaurantID.class);
                     startActivity(i);
                 }
                 else if (position ==  5) {
-                    Intent i = new Intent(Fav.this, Pagamentos.class);
+                    Intent i = new Intent(Fav.this, RestaurantID.class);
                     startActivity(i);
                 }
             }

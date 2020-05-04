@@ -48,7 +48,7 @@
         android:background="@drawable/searchbox" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_cc"
         android:layout_width="139dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -62,7 +62,7 @@
         android:textColor="#ffffff" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button_esc"
         android:layout_width="233dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
