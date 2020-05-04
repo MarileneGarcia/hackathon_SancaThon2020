@@ -82,4 +82,5 @@
     <string name="empty">"    "</string>
     <string name="Pagamento">Pagamento</string>
     <string name="pagar">Pagar</string>
+    <string name="comanda">Comanda</string>
 </resources>
