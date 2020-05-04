@@ -42,8 +42,8 @@ class MeuAdaptador  extends ArrayAdapter<String> {
     String rTitle[];
     String rDescription[];
 
-    MeuAdaptador (Context c, String title[], String description[]) {
-        super(c, R.layout.row, R.id.textView1, title);
+    MeuAdaptador (Context c, String[] title, String[] description) {
+        super(c, R.layout.row2, R.id.textView1, title);
         this.context = c;
         this.rTitle = title;
         this.rDescription = description;
@@ -54,9 +54,9 @@ class MeuAdaptador  extends ArrayAdapter<String> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater layoutInflater = (LayoutInflater) context.getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View row = layoutInflater.inflate(R.layout.row, parent, false);
-        TextView myTitle = row.findViewById(R.id.textView1);
-        TextView myDescription = row.findViewById(R.id.textView2);
+        View row = layoutInflater.inflate(R.layout.row2, parent, false);
+        TextView myTitle = row.findViewById(R.id.titulo);
+        TextView myDescription = row.findViewById(R.id.descricao);
 
         // now set our resources on views
         myTitle.setText(rTitle[position]);

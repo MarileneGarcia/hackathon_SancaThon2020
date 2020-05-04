@@ -52,16 +52,10 @@
     <string name="cp"><![CDATA["Throughout the coffee shop are small tables with chairs that extras on the show usually occupy. These, from the main camera angle, are behind the large orange sofa in the middle of the shop. The green chair on the right, the coffee table and the table and chair on the left are nearly always used as the main setting for any scenes in Central Perk. In the earlier episodes, irrespective of how busy the coffee shop became, those seats were always available. "]]></string>
     <string name="rest_1" />
     <string name="title_activity_settings">Settings</string>
-
-    <!-- Preference Titles -->
     <string name="messages_header">Messages</string>
     <string name="sync_header">Sync</string>
-
-    <!-- Messages Preferences -->
     <string name="signature_title">Your signature</string>
     <string name="reply_title">Default reply action</string>
-
-    <!-- Sync Preferences -->
     <string name="sync_title">Sync email periodically</string>
     <string name="attachment_title">Download incoming attachments</string>
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
@@ -99,16 +93,14 @@
     <string name="hint_e">Digite o estado</string>
     <string name="hint_b">Digite o bairro</string>
     <string name="hint_c">Digite a cidade</string>
-<<<<<<< Updated upstream
     <string name="pgo">Pagar comanda</string>
     <string name="retcar">Escolher mais itens do cardápio</string>
     <string name="Cardapio">Cardápio</string>
     <string name="rsv" />
     <string name="av">Avaliação</string>
-=======
     <string name="cafe">Cafés</string>
     <string name="lanches">Lanches</string>
-    >>>>>>> Stashed changes
+
 
 
 </resources>

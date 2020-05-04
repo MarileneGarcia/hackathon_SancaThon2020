@@ -15,11 +15,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< Updated upstream
+
         <activity android:name=".RestaurantID"></activity>
-=======
+
         <activity android:name=".Menu"></activity>
->>>>>>> Stashed changes
+
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -46,7 +46,6 @@
         <activity android:name=".Localidadde" />
         <activity android:name=".Chat" />
         <activity android:name=".Faq" />
-        <activity android:name=".faq" />
         <activity android:name=".Activity4" />
         <activity android:name=".Main3Activity" />
         <activity android:name=".Userprofile" />
