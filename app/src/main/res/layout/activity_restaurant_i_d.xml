@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantID"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/centraPerk"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginRight="-9dp"
+        android:layout_marginBottom="341dp"
+        android:contentDescription="@string/empty"
+        android:src="@drawable/b" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="130dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="257dp"
+        android:layout_marginRight="257dp"
+        android:layout_marginBottom="14dp"
+        android:text="@string/Cardapio" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="223dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="13dp"
+        android:text="@string/rsv"
+        tools:text="Reservar uma mesa e abrir uma comanda" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="393dp"
+        android:layout_height="171dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="173dp"
+        android:background="@drawable/searchbox"
+        android:gravity="center"
+        android:text="@string/cp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="302dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:layout_marginBottom="99dp"
+        android:background="@drawable/searchbox"
+        android:gravity="center"
+        android:text="@string/av"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        tools:text="    Avaliação" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="318dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="99dp"
+        android:contentDescription="@string/empty"
+        app:srcCompat="@drawable/x" />
+</RelativeLayout>
