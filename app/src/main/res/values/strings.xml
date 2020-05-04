@@ -99,11 +99,15 @@
     <string name="hint_e">Digite o estado</string>
     <string name="hint_b">Digite o bairro</string>
     <string name="hint_c">Digite a cidade</string>
+<<<<<<< Updated upstream
     <string name="pgo">Pagar comanda</string>
     <string name="retcar">Escolher mais itens do cardápio</string>
     <string name="Cardapio">Cardápio</string>
     <string name="rsv" />
     <string name="av">Avaliação</string>
+=======
+    <string name="cafe">Cafés</string>
+>>>>>>> Stashed changes
 
 
 </resources>
