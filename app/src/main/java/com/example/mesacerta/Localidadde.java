@@ -1,3 +1,5 @@
+package com.example.mesacerta;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -6,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.example.mesacerta.MapsActivity2;
+import com.example.mesacerta.R;
 
 import java.net.URISyntaxException;
 
