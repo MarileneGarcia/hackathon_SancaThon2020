@@ -82,4 +82,7 @@
     <string name="empty">"    "</string>
     <string name="Pagamento">Pagamento</string>
     <string name="pagar">Pagar</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key">AIzaSyBd1shea9JubXn2cWsNT6M5cqZmtmEfstE</string>
+    <string name="botao">Próximos a mim</string>
 </resources>
